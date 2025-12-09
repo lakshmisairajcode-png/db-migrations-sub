@@ -2,7 +2,6 @@ const fs = require("fs");
 const path = require("path");
 const { MongoClient } = require("mongodb");
 
-// 🔴 PASTE YOUR DEV MONGO URI HERE (same one you use in Compass)
 const uri = "mongodb+srv://sairaj-dev:etQE2lpdMMYXXR7L@cluster0.0xaeq.mongodb.net/";
 
 const dbName = "CE_DEV_V01";
